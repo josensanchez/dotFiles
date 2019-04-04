@@ -1,0 +1,4 @@
+find ~/Desktop/* -mtime +5 -exec rm -r {} \;
+find ~/Downloads/*.{html,pdf,pptx,gz,xz,zip,rar,sdoc,eot,js,json,box} -mtime +5 -exec rm -r {} \;
+find ~/Pictures/Screenshot\ from\ 201* -mtime +5 -exec rm -r {} \;
+find ~/Pictures/Selection_* -mtime +5 -exec rm -r {} \;

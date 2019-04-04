@@ -1,0 +1,3 @@
+cd ~/projects/stensul/sites
+vagrant up
+vagrant ssh -- -t 'sudo ./start.sh; /bin/bash';

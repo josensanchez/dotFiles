@@ -1,0 +1,12 @@
+#!/bin/bash
+WALL=$1
+feh --bg-scale $WALL
+CAL="/tmp/weather.png"
+rm $CAL
+cd /tmp
+curl wttr.in/ezeiza_tqp0.png > $CAL
+convert /tmp/weather.png -scale 500% $CAL
+convert $WALL <( cat $CAL) -geometry +50+100 -composite /tmp/screen.png
+feh --bg-scale /tmp/screen.png
+rm /tmp/screen.png
+
