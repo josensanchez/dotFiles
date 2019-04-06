@@ -10,3 +10,4 @@ feh
 xrandr
 lxappearance
 compton
+scrot
