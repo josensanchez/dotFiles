@@ -8,3 +8,5 @@ i3-gaps
 playerctl
 feh
 xrandr
+lxappearance
+compton
